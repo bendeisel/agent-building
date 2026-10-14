@@ -56,6 +56,13 @@ This checkout contains other earlier changes. Avoid `git add .`, `git commit -a`
 or committing pre-existing staged files as part of a skills-only handoff. A fresh
 clone/branch is simplest for another agent importing just the supplied archive.
 
-The ZIP has a repository-relative `ghl-chat-bot/skills/` root. It excludes the GHL
-framework implementation and tenant configuration. Ship those separately after
-review if they are also wanted in the destination repository.
+## Downloadable packages
+
+- [Ad Manager ZIP](downloads/GHL_Ad_Manager.zip): ads skill, SOP.md, and START_HERE.md.
+- [AI Bots ZIP](downloads/GHL_AI_Bots.zip): four agent skills, SOP.md, and START_HERE.md.
+- [AI Bots SOP](GHL_AI_Bots_SOP.md): building, testing, optimizing, actions, and release checks.
+
+Each ZIP opens directly to SOP.md, START_HERE.md, and a skills folder. Extract the
+named folders inside skills for installation. These archives exclude credentials,
+customer histories, recordings, test results, and the API framework implementation.
+Regenerate each archive from the corresponding source files when those files change.
