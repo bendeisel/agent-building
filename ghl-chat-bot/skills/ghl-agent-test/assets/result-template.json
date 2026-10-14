@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "tenant": null,
+  "agentId": null,
+  "product": null,
+  "promptHash": null,
+  "surface": null,
+  "cases": [],
+  "caseShape": {
+    "id": null,
+    "sourceType": "synthetic",
+    "sessionId": null,
+    "turns": [],
+    "checks": [],
+    "status": "NOT_TESTED",
+    "actionEvidence": {
+      "configured": null,
+      "triggerObserved": null,
+      "executionConfirmed": null,
+      "deliveryConfirmed": null
+    },
+    "limitations": []
+  },
+  "counts": {"conversations": 0, "customerTurns": 0},
+  "readiness": "NOT_ASSESSED"
+}
