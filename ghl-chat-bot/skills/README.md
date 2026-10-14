@@ -1,6 +1,6 @@
 # Growth Factor GHL skills
 
-Four portable instruction skills, separate from credentials, customer history,
+Five portable instruction skills, separate from credentials, customer history,
 and the implementation of the API client.
 
 | Skill | Use |
@@ -9,6 +9,7 @@ and the implementation of the API client.
 | ghl-agent-test | Reproduce and grade historical or synthetic conversations |
 | ghl-agent-optimize | Fix existing prompt behavior and verify the improvement |
 | ghl-agent-actions | Configure or simplify workflows, handovers and followups |
+| ghl-facebook-ads | Build and edit Meta ads through GHL, with a linked operational SOP |
 
 Build supports Conversation AI, Agent Studio, and Voice AI as distinct products.
 It does not claim that this repository's client already implements every product.
@@ -18,7 +19,7 @@ are examples of one tenant, never defaults for another gym or business.
 ## Install and use
 
 Each named folder contains its own SKILL.md. For Codex personal installation, copy
-the four named folders into the skills directory under CODEX_HOME, or
+the five named folders into the skills directory under CODEX_HOME, or
 `C:\Users\YOUR_NAME\.codex\skills` when CODEX_HOME is unset. Do not overwrite an
 existing customized skill without comparing it first. Load a new session if needed.
 
@@ -32,6 +33,7 @@ Example requests:
 - Use $ghl-agent-test to test this copied bot against 20 historical conversations and five pricing-pressure scenarios.
 - Use $ghl-agent-optimize to remove verbose dates and unsolicited class descriptions, then replay the attached conversation.
 - Use $ghl-agent-actions to map manager handovers and identify which workflows built-in actions can replace. Keep existing routing until replacements are verified.
+- Use $ghl-facebook-ads to create three image variants with identical copy and leave the campaign in draft. Read its [SOP](ghl-facebook-ads/references/SOP.md) for the operating procedure.
 
 ## Publish to GitHub
 
@@ -44,7 +46,7 @@ read-only GitHub connector cannot push commits.
 
 Suggested handoff request:
 
-> Add the supplied four skills under ghl-chat-bot/skills in bendeisel/growthfactor.
+> Add the supplied five skills under ghl-chat-bot/skills in bendeisel/growthfactor.
 > Read repository instructions, compare existing files, validate the skills, and
 > scan the exact files for secrets. Commit only the skill-pack changes on a new
 > branch and open a pull request. Do not include customer histories, recordings,
